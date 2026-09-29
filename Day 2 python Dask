@@ -1,0 +1,234 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "id": "04b3ba76-0686-4cbd-953c-1dd75b0e5e25",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Hello\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(\"Hello\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 6,
+   "id": "6d4d0b49-51ff-4030-9a62-4bd492c47034",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Rajdhani Express\n",
+      "12951\n",
+      "Mumbai\n",
+      "Delhi\n",
+      "2450.75\n"
+     ]
+    }
+   ],
+   "source": [
+    "train_name = \"Rajdhani Express\"\n",
+    "train_number = 12951\n",
+    "source_station = \"Mumbai\"\n",
+    "destination_station = \"Delhi\"\n",
+    "ticket_price = 2450.75\n",
+    "\n",
+    "print(train_name)\n",
+    "print(train_number)\n",
+    "print(source_station)\n",
+    "print(destination_station)\n",
+    "print(ticket_price)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 7,
+   "id": "f9cfb11f-275d-41f3-8c63-6039200b1a94",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Welcome to Indian Railway Reservation System\n",
+      "Train Name : Rajdhani Express\n",
+      "Train Number : 12951\n",
+      "Source Station : Mumbai\n",
+      "Destination Station : Delhi\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(\"Welcome to Indian Railway Reservation System\")\n",
+    "print(\"Train Name :\", train_name)\n",
+    "print(\"Train Number :\", train_number)\n",
+    "print(\"Source Station :\", source_station)\n",
+    "print(\"Destination Station :\", destination_station)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 8,
+   "id": "d0499e13-74ce-4bd6-89a3-635aa0aa4607",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "<class 'str'>\n",
+      "<class 'int'>\n",
+      "<class 'float'>\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(type(train_name))\n",
+    "print(type(train_number))\n",
+    "print(type(ticket_price))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 16,
+   "id": "ea5bf024-dde2-4fb4-9dd0-c6c575fe61cd",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Rahul Sharma\n",
+      "B2-45\n",
+      "True\n"
+     ]
+    }
+   ],
+   "source": [
+    "passenger_name = \"Rahul Sharma\"\n",
+    "seat_number = \"B2-45\"\n",
+    "is_confirmed = True\n",
+    "\n",
+    "print(passenger_name)\n",
+    "print(seat_number)\n",
+    "print(is_confirmed)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 17,
+   "id": "ff408ad0-8f71-4dbf-b2b2-4fa0025439bd",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "<class 'int'>\n"
+     ]
+    }
+   ],
+   "source": [
+    "ticket_price_integer = int(ticket_price)\n",
+    "print(type(ticket_price_integer))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 18,
+   "id": "3599bffd-65ed-409b-a1a5-49b015668b89",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "<class 'str'>\n"
+     ]
+    }
+   ],
+   "source": [
+    "train_number_string = str(train_number)\n",
+    "print(type(train_number_string))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 21,
+   "id": "e9da3bcd-de7b-48ff-aef6-8031505c7e93",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Rahul Sharma\n",
+      "B2-45\n",
+      "Confirmed\n"
+     ]
+    }
+   ],
+   "source": [
+    "passenger_name = \"Rahul Sharma\"\n",
+    "seat_number = \"B2-45\"\n",
+    "confirmation_status = \"Confirmed\"\n",
+    "\n",
+    "print(passenger_name)\n",
+    "print(seat_number)\n",
+    "print(confirmation_status)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "44a49fca-2762-442b-a754-254df107177a",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# Railway Reservation Output System\n",
+    "# Passenger Information\n",
+    "passenger_name = \"Rahul Sharma\"[cite: 2]\n",
+    "\n",
+    "# Ticket Confirmation Status\n",
+    "confirmation_status = True[cite: 2]\n",
+    "\n",
+    "# Boolean-a Word / String-a maatha `str()` use pannungaa:\n",
+    "status_word = str(confirmation_status)\n",
+    "\n",
+    "print(status_word)         # Output: True\n",
+    "print(type(status_word))   # Output:"
+   ]
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3 (ipykernel)",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.14.5"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
